@@ -24,12 +24,6 @@ pip install -e '.[dev]'
 
 ## Environment Variables
 
-You can copy `.env_example` to `.env` and adjust values:
-
-```bash
-cp .env_example .env
-```
-
 - `OPENAI_API_KEY`: OpenAI API key (primary AI provider).
 - `DEEPSEEK_API_KEY`: DeepSeek API key (fallback provider).
 - `SEO_AUDIT_DB_PATH`: SQLite file path (default: `seo_audit.db`).
